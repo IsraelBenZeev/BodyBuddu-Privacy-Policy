@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(*)",
+      "Bash(ls:*)",
+      "Bash(npm run lint:*)",
+      "Bash(cat:*)",
+      "Bash(tree:*)",
+      "Bash(npx expo:*)",
+      "Bash(npm start)",
+      "Bash(npx tsc:*)",
+      "Bash(grep:*)",
+      "Bash(dir:*)",
+      "Bash(cd)",
+      "WebSearch",
+      "mcp__claude_ai_Supabase__list_projects",
+      "mcp__claude_ai_Supabase__execute_sql",
+      "WebFetch(domain:github.com)",
+      "Bash(unzip -l Success.lottie)",
+      "Bash(unzip -l Error.lottie)",
+      "Bash(unzip -l Circle.lottie)",
+      "Bash(node -e \"const f = require\\(''c:/Users/i0548/Documents/Full stack lessons/BodyBuddy/BodyBuddy-client/assets/animations/dumbell animation.json''\\); const layers = f.layers?.map\\(l => l.nm\\); console.log\\(JSON.stringify\\(layers, null, 2\\)\\);\")",
+      "Bash(node -e \":*)",
+      "mcp__claude_ai_Supabase__list_tables"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": ["supabase"]
+}
